@@ -1,0 +1,284 @@
+/* --- الإعدادات العامة --- */
+body {
+    background-color: #f4f7fb;
+    color: #102040;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; 
+}
+
+/* --- الهيدر والقائمة --- */
+.header {
+    background-color: #3b61e0;
+    color: white;
+    padding: 25px 0; 
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+}
+
+.nav-links {
+    margin-top: 10px;
+}
+
+.header a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none; 
+    font-size: 14px;
+}
+
+/* --- تنسيق الأقسام العام (الحدود والحواف) --- */
+.section {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    border: 1px solid #d9e2f3;
+    border-radius: 12px; 
+    max-width: 800px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.section .icon {
+    margin-right: 10px;
+}
+
+/* --- قسم البطل (Hero) --- */
+.hero img {
+    width: 150px;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    border: 3px solid #eee;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: #102040;
+}
+
+.hero h3 {
+    color: #3b61e0; 
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    font-weight: normal;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    line-height: 1.5;
+    color: #555;
+}
+
+.social-icons a {
+    color: #3b61e0;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* --- قسم About Me --- */
+#about {
+    background-color: #f9fdf9; /* خلفية خضراء فاتحة */
+    border-color: #e2f3e2;
+}
+
+#about h2 {
+    color: #4CAF50;
+}
+
+#about p {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+    color: #333;
+}
+
+.quote-container {
+    background-color: #f2fbf2;
+    padding: 15px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+mark {
+    background-color: transparent;
+    color: #555;
+}
+
+/* --- قسم My Skills --- */
+#skills {
+    background-color: #fffaf4; /* خلفية برتقالية فاتحة */
+    border-color: #fcecd9;
+}
+
+#skills h2 {
+    color: #FF9800;
+}
+
+.skill-item {
+    margin-bottom: 15px;
+    text-align: left; /* محاذاة لليسار كما في الصورة */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+    color: #333;
+}
+
+.skill-bar-bg {
+    display: inline-block;
+    width: 350px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background-color: #FF9800;
+    border-radius: 5px;
+}
+
+.skill-percent {
+    display: inline-block;
+    font-size: 14px;
+    color: #FF9800;
+}
+
+/* --- قسم My Projects --- */
+#projects {
+    background-color: #faf9ff; /* خلفية بنفسجية فاتحة */
+    border-color: #e6e3f3;
+}
+
+#projects h2 {
+    color: #673AB7;
+}
+
+.project-card {
+    background-color: #fcfdfe;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 700px;
+    text-align: left; /* محاذاة لليسار */
+}
+
+.project-icon {
+    font-size: 24px;
+    color: #673AB7;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.project-text {
+    display: inline-block;
+    max-width: 450px;
+}
+
+.project-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.view-project {
+    float: right; /* محاذاة الرابط لليمين كحل بديل */
+    color: #673AB7;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* --- قسم Contact Me --- */
+#contact {
+    background-color: #fff9fa; /* خلفية وردية فاتحة */
+    border-color: #f9e2e6;
+}
+
+#contact h2 {
+    color: #E91E63;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box; 
+    background-color: white;
+}
+
+/* لتنسيق حقول الاسم والإيميل في سطر واحد */
+.form-group-row input {
+    width: 48%; /* تحديد العرض ليكون أقل من النصف */
+    display: inline-block;
+}
+
+.form-group-row input:first-child {
+    margin-right: 2%; /* إضافة مسافة بين الحقلين */
+}
+
+#submit-btn {
+    background-color: #E91E63;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 200px; /* تحديد عرض الزر كما في الصورة */
+}
+
+/* --- الفوتر --- */
+.footer {
+    background-color: #3b61e0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+}

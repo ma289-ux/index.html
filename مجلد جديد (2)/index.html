@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Ahmed Ali</h1>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<div class="section hero">
+    <img src="logo.png" alt="Profile Photo">
+    <h2>Hello, I'm Ahmed Ali</h2>
+    <h3>Web Development Student</h3>
+    <p>
+        I am learning how to build simple websites
+        using HTML and CSS.
+    </p>
+</div>
+
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+        مرحباً بكم في موقعي الشخصي. أنا طالب شغوف بمجال <strong>تطوير الويب</strong>، وأسعى دائماً لتطوير مهاراتي البرمجية وبناء واجهات مستخدم جذابة. حالياً، أركز جهدي على <mark>إتقان أساسيات فرونت إند</mark> لبناء أساس قوي.
+    </p>
+    <blockquote class="my-quote">
+        "التعليم ليس ملء دلو، بل إيقاد شعلة." - ويليام بتلر ييتس
+    </blockquote>
+</div>
+
+<div class="section" id="skills">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+        <li>HTML5 - لبناء هيكل صفحات الويب بشكل معيارى</li>
+        <li>CSS3 - لتصميم وتنسيق الصفحات وإضافة الألوان</li>
+        <li>GitHub - لإدارة ملفات المشروع ومشاركتها مع فريق العمل</li>
+    </ul>
+</div>
+
+<div class="section" id="projects">
+    <h2>My Projects</h2>
+    
+    <div class="project-card">
+        <h3>Project 1: Tribute Page</h3>
+        <p>صفحة ويب بسيطة تم إنشاؤها باستخدام HTML و CSS لاستعراض السيرة الذاتية لشخصية ملهمة.</p>
+        <a class="project-link" href="https://github.com/dashboard" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Project 2: Technical Documentation</h3>
+        <p>موقع توثيق فني يحتوي على قوائم ونصوص منسقة لمساعدة المطورين المبتدئين.</p>
+        <a class="project-link" href="https://github.com" target="_blank">View Project</a>
+    </div>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact Me</h2>
+    <form action="#">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" placeholder="أدخل اسمك الكريم" required>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+        <label for="subject">عنوان الرسالة:</label>
+        <input type="text" id="subject" name="subject" placeholder="موضوع الرسالة" required>
+
+        <label for="message">نص الرسالة:</label>
+        <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+
+        <input type="submit" id="submit-btn" value="إرسال الرسالة">
+    </form>
+</div>
+
+</body>
+</html>
